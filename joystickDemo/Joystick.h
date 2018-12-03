@@ -35,7 +35,7 @@ const static NSString *boundWidthKey                                            
 const static NSString *controllerBackgroundColorKey                                             = @"controllerBGColor";
 const static NSString *controllerBackgroundImageKey                                             = @"controllerBGImage";
 const static NSString *controllerBoundWidthKey                                                  = @"controllerBoundWidth";
-const static NSString *controllerBoundColorKey                                                  = @"controllerBoundWidth";
+const static NSString *controllerBoundColorKey                                                  = @"controllerBoundColor";
 
 /*
  * The delegate of the joystick
