@@ -13,6 +13,7 @@
 		E7C8CBDD21B1266600F04D44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7C8CBDC21B1266600F04D44 /* Assets.xcassets */; };
 		E7C8CBE021B1266600F04D44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7C8CBDE21B1266600F04D44 /* LaunchScreen.storyboard */; };
 		E7C8CBE321B1266600F04D44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C8CBE221B1266600F04D44 /* main.m */; };
+		E7C8CBEE21B12C2F00F04D44 /* Joystick.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C8CBED21B12C2F00F04D44 /* Joystick.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		E7C8CBDF21B1266600F04D44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7C8CBE121B1266600F04D44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7C8CBE221B1266600F04D44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E7C8CBEC21B12C2F00F04D44 /* Joystick.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Joystick.h; sourceTree = "<group>"; };
+		E7C8CBED21B12C2F00F04D44 /* Joystick.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Joystick.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				E7C8CBDE21B1266600F04D44 /* LaunchScreen.storyboard */,
 				E7C8CBE121B1266600F04D44 /* Info.plist */,
 				E7C8CBE221B1266600F04D44 /* main.m */,
+				E7C8CBEC21B12C2F00F04D44 /* Joystick.h */,
+				E7C8CBED21B12C2F00F04D44 /* Joystick.m */,
 			);
 			path = joystickDemo;
 			sourceTree = "<group>";
@@ -142,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7C8CBD821B1266500F04D44 /* ViewController.m in Sources */,
+				E7C8CBEE21B12C2F00F04D44 /* Joystick.m in Sources */,
 				E7C8CBE321B1266600F04D44 /* main.m in Sources */,
 				E7C8CBD521B1266500F04D44 /* AppDelegate.m in Sources */,
 			);
@@ -288,6 +294,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3W38298W78;
 				INFOPLIST_FILE = joystickDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3W38298W78;
 				INFOPLIST_FILE = joystickDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
